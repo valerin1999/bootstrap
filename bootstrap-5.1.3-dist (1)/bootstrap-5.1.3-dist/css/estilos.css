@@ -1,13 +1,36 @@
+.navbar-dark,.navbar-dark {
+    background:rgb(15, 179, 165)!important;
+}
+ 
 
- 
- 
- 
+.espoacio{
+    /*border:solid purple;*/
+    height: 8px0px;
+    margin-top: 80px;
+}
  .capafondo{
-   background:cyan;
-   height:100%; 
-   position:fixed;
-   width:100%;
-   z-index:-1;
- }
+     background:url("images.jpg")no-repeat;
+     background-size:cover;
+     filter:grayscale(1);
+     height:100%;
+     left:0;
+     opacity:0.4;
+     position:fixed;
+     top:0;
+     width:100%;
+     z-index:-1;
 
+     
+ }          
+ 
 
+.capafondo inframe{
+
+    height:100%;
+    width:100%;
+}
+
+.row div[clase^="col"]{
+    background: darkmagenta;
+    border:solid 0.1em salmon;
+}
